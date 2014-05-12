@@ -1,7 +1,7 @@
 === Open RDW kenteken voertuiginformatie ===
 Contributors: Tussendoor internet & marketing
 Donate link: http://www.tussendoor.nl/wordpress-plugins/
-Tags: open, rdw, open rdw, kenteken, informatie, voertuig, kentekeninformatie, voertuiginformatie, vwe, merk, model
+Tags: tussendoor, open, rdw, open rdw, kenteken, informatie, voertuig, kentekeninformatie, voertuiginformatie, vwe, merk, model
 Requires at least: 3.6
 Tested up to: 3.9
 Stable tag: 1.0
@@ -66,7 +66,7 @@ De plugin beschikt over een aantal standaard WordPress integraties. Zo kun je de
 
 Via de integratie met CF7 kun je op een snelle en eenvoudige manier kenteken informatie verzenden via de meest populaire contact formulier plugin van WordPress!
 
-[youtube http://youtu.be/TsFM36RxrH4]
+[youtube http://www.youtube.com/watch?v=TsFM36RxrH4&feature=youtu.be]
 
 
 = Meer data nodig =

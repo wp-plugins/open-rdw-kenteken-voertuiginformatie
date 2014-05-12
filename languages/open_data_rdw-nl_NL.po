@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Open data RDW\n"
+"POT-Creation-Date: 2014-05-08 13:03+0100\n"
+"PO-Revision-Date: 2014-05-08 13:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tussendoor Internet en Marketing <info@tussendoor.nl>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../open-data-rdw-api.php:39 ../open-data-rdw-api.php:40
+#: ../open-data-rdw-api.php:41 ../open-data-rdw-api.php:42
+msgid "Vehicle"
+msgstr "Voertuig"
+
+#: ../open-data-rdw-api.php:39
+msgid "License plate"
+msgstr "Kenteken"
+
+#: ../open-data-rdw-api.php:40
+msgid "Brand"
+msgstr "Merk"
+
+#: ../open-data-rdw-api.php:41
+msgid "Model"
+msgstr "Model"
+
+#: ../open-data-rdw-api.php:42
+msgid "Vehicle type"
+msgstr "Voertuigsoort"
+
+#: ../open-data-rdw-api.php:44 ../open-data-rdw-api.php:45
+#: ../open-data-rdw-api.php:46 ../open-data-rdw-api.php:47
+msgid "Version"
+msgstr "Uitvoering"
+
+#: ../open-data-rdw-api.php:44
+msgid "Color (1)"
+msgstr "Kleur (1)"
+
+#: ../open-data-rdw-api.php:45
+msgid "Color (2)"
+msgstr "Kleur (2)"
+
+#: ../open-data-rdw-api.php:46
+msgid "Number of seats"
+msgstr "Aantal zitplaatsen"
+
+#: ../open-data-rdw-api.php:47
+msgid "number of standing places"
+msgstr "Aantal staanplaatsen"
+
+#: ../open-data-rdw-api.php:49 ../open-data-rdw-api.php:50
+#: ../open-data-rdw-api.php:51 ../open-data-rdw-api.php:52
+msgid "Motor"
+msgstr "Motor"
+
+#: ../open-data-rdw-api.php:49
+msgid "Fuel (1)"
+msgstr "Brandstof (1)"
+
+#: ../open-data-rdw-api.php:50
+msgid "Fuel (2)"
+msgstr "Brandstof (2)"
+
+#: ../open-data-rdw-api.php:51
+msgid "Number of cylinders"
+msgstr "Aantal cilinders"
+
+#: ../open-data-rdw-api.php:52
+msgid "Engine capacity"
+msgstr "Cilinderinhoud"
+
+#: ../open-data-rdw-api.php:54 ../open-data-rdw-api.php:55
+#: ../open-data-rdw-api.php:56 ../open-data-rdw-api.php:57
+msgid "Weight and capacity"
+msgstr "Gewicht en laadvermogen"
+
+#: ../open-data-rdw-api.php:54
+msgid "Mass of empty vehicle"
+msgstr "Massa leeg voertuig"
+
+#: ../open-data-rdw-api.php:55
+msgid "Capacity"
+msgstr "Laadvermogen"
+
+#: ../open-data-rdw-api.php:56
+msgid "Maximum permissible mass of vehicle"
+msgstr "Toegestane maximum massa voertuig"
+
+#: ../open-data-rdw-api.php:57
+msgid "Mass roadworthy"
+msgstr "Massa rijklaar"
+
+#: ../open-data-rdw-api.php:59 ../open-data-rdw-api.php:60
+#: ../open-data-rdw-api.php:61 ../open-data-rdw-api.php:62
+#: ../open-data-rdw-api.php:63
+msgid "Maximum towable mass"
+msgstr "Maximum te trekken massa"
+
+#: ../open-data-rdw-api.php:59
+msgid "Unbraked"
+msgstr "Ongeremd"
+
+#: ../open-data-rdw-api.php:60
+msgid "Braked"
+msgstr "Geremd"
+
+#: ../open-data-rdw-api.php:61
+msgid "Trailer braked"
+msgstr "Oplegger geremd"
+
+#: ../open-data-rdw-api.php:62
+msgid "Autonomous braked"
+msgstr "Autonoom geremd"
+
+#: ../open-data-rdw-api.php:63
+msgid "Center axis braked"
+msgstr "Middenas geremd"
+
+#: ../open-data-rdw-api.php:65 ../open-data-rdw-api.php:66
+#: ../open-data-rdw-api.php:67 ../open-data-rdw-api.php:68
+msgid "History"
+msgstr "Historie"
+
+#: ../open-data-rdw-api.php:65
+msgid "Date of first registration"
+msgstr "Datum eerste toelating"
+
+#: ../open-data-rdw-api.php:66
+msgid "Date of first release Netherlands"
+msgstr "Datum eerste afgifte Nederland"
+
+#: ../open-data-rdw-api.php:67
+msgid "Date of last ascription"
+msgstr "Datum laatste tenaamstelling"
+
+#: ../open-data-rdw-api.php:68
+msgid "MOT Expiry"
+msgstr "Vervaldatum APK"
+
+#: ../open-data-rdw-widget.php:10
+msgid "Request data by means of license plate from the Open RDW."
+msgstr "Vraag kenteken gegevens op via de open data van het RDW."
+
+#: ../open-data-rdw.php:71 ../views/admin/about.php:3
+#: ../views/admin/settings.php:3
+msgid "Information"
+msgstr "Informatie"
+
+#: ../open-data-rdw.php:72 ../views/admin/about.php:4
+#: ../views/admin/settings.php:4
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../open-data-rdw.php:109
+msgid "No license plates found"
+msgstr "Er zijn geen kenteken gegevens gevonden."
+
+#: ../open-data-rdw.php:116
+msgid "No license plate entered"
+msgstr "Er is geen kenteken ingevuld"
+
+#: ../views/admin/about.php:8
+msgid "Open data RDW vehicle information"
+msgstr "Open data RDW voertuig informatie"
+
+#: ../views/admin/about.php:16
+msgid "Add widget"
+msgstr "Widget toevoegen"
+
+#: ../views/admin/about.php:28
+msgid "Add shortcode"
+msgstr "Shortcode toevoegen"
+
+#: ../views/admin/settings.php:9
+msgid "Open data RDW settings"
+msgstr "Open data RDW instellingen"
+
+#: ../views/admin/settings.php:10
+msgid "Enter the open data RDW settings"
+msgstr "Voer hier u open RDW instellingen in"
+
+#: ../views/admin/settings.php:15
+msgid "Account key"
+msgstr "Gebruikers sleutel"
+
+#: ../views/admin/settings.php:18
+#, php-format
+msgid "No account key?, click %shere%s to register one."
+msgstr "Nog geen account? klik %shier%s om er één te registreren."
+
+#: ../views/admin/settings.php:23
+msgid "Save changes"
+msgstr "Opslaan"
+
+#: ../views/admin/wpcf7-tag-generator.php:4
+msgid "Required field?"
+msgstr "Verplicht veld?"
+
+#: ../views/admin/wpcf7-tag-generator.php:6
+msgid "Name"
+msgstr "Naam"
+
+#: ../views/admin/wpcf7-tag-generator.php:7
+#: ../views/admin/wpcf7-tag-generator.php:15
+msgid "optional"
+msgstr "optioneel"
+
+#: ../views/admin/wpcf7-tag-generator.php:15
+msgid "Default value"
+msgstr "Standaard waarde"
+
+#: ../views/admin/wpcf7-tag-generator.php:18
+msgid "Use this text as placeholder?"
+msgstr "Gebruik deze tekst als placeholder"
+
+#: ../views/admin/wpcf7-tag-generator.php:43
+msgid "Copy this code and paste it into the form left."
+msgstr "Kopieer deze code en plak hem in het formulier aan de linkerzijde."
+
+#: ../views/admin/wpcf7-tag-generator.php:45
+msgid "And, put this code into the Mail fields below."
+msgstr "En plaats deze code in het mail veld onder."
+
+#: ../views/frontend/shortcode.php:3 ../views/frontend/widget.php:4
+msgid "Kenteken opzoeken"
+msgstr "Kenteken opzoeken"
+
+#: ../views/frontend/shortcode.php:6 ../views/frontend/widget.php:7
+msgid "Voertuiggegevens"
+msgstr "Voertuiggegevens"

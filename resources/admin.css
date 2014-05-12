@@ -1,0 +1,135 @@
+.open-data .section img {
+	width: 100%;
+}
+.open-data div.section {
+	margin: 0 0 15px 0;
+	overflow: hidden;
+}
+
+.open-data .grid-1, .open-data .grid-2, .open-data .grid-3,
+.open-data .grid-4, .open-data .grid-5, .open-data .grid-6,
+.open-data .grid-7, .open-data .grid-8, .open-data .grid-9,
+.open-data .grid-10, .open-data .grid-11, .open-data .grid-12 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin: 0px 1%;
+	min-height: 15px;
+}
+
+.open-data .grid-1 { width: 6.333%; }
+.open-data .grid-2 { width: 14.667%; }
+.open-data .grid-3 { width: 23.0%; }
+.open-data .grid-4 { width: 31.333%; }
+.open-data .grid-5 { width: 39.667%; }
+.open-data .grid-6 { width: 48.0%; }
+.open-data .grid-7 { width: 56.333%; }
+.open-data .grid-8 { width: 64.667%; }
+.open-data .grid-9 { width: 73.0%; }
+.open-data .grid-10 { width: 81.333%; }
+.open-data .grid-11 { width: 89.667%; }
+.open-data .grid-12 { width: 98.0%; }
+
+.open-data div.footer {
+	border-top: 1px solid #dfdfdf;
+	text-align: left;
+	padding: 10px 0;
+	margin: 50px 0 0 0;
+}
+
+.open-data .footer p {
+	margin: 10px 0 0 0;
+}
+
+
+.open-data div.info {
+	border-top: 1px solid #CCC;	
+	padding: 10px 0;
+	margin: 0;
+}
+
+.open-data div.header {
+	margin: 20px 0 5px 0;
+}
+
+.open-data ul.nav {
+	border-bottom: 1px solid #CCC;
+}
+
+.open-data ul.nav li {
+	display: inline-block;
+	border: 1px solid #CCC;
+	margin: 0 0 -1px 10px;
+	background-color: #EEE;
+}
+
+.open-data ul.nav li.active {
+	background-color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+.open-data ul.nav li:last-child {
+	margin-left: 5px;
+}
+
+.open-data ul.nav a {
+	display: block;
+	padding: 0 10px;
+	font-size: 1.3em;
+	line-height: 32px;
+	text-decoration: none;
+}
+
+.open-data-settings-table {
+	text-align: left;
+	width: 100%;
+}
+
+.open-data-settings-table th {
+	border-bottom: 1px solid #CCC;
+	padding: 6px 4px 4px 0;
+}
+
+.open-data-settings-table td {
+	padding: 2px 0 2px 0;
+}
+
+.open-data-settings-table td:last-child {
+	padding-right: 2px;
+}
+
+.open-data-settings-table th a {
+	text-decoration: none;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.open-data-settings-table pre {
+	margin: 2px 0 0 0;
+	padding: 2px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCC;
+}
+
+.open-rdw-modal-background {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: none;
+}
+
+.open-rdw-modal {
+	width: 500px;
+	max-height: 80%;
+	margin: 40px auto;
+	overflow: auto;
+	background-color: #FFF;
+	padding: 10px 20px;
+	-webkit-box-shadow:  0px 0px 5px 5px rgba(0, 0, 0, 0.18);
+	box-shadow:  0px 0px 5px 5px rgba(0, 0, 0, 0.18);
+}

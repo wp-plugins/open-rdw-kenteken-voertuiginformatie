@@ -15,7 +15,7 @@
 				if ($instance[$d['name']] == 1) {
 					if ( ! in_array($d['category'], $categories)) {
 						$categories[] = $d['category'];
-						echo '<tr class="fieldset-header">';
+						echo '<tr class="open-rdw-header">';
 						echo '<td colspan="2" style="font-weight: bold;">';
 						echo '<a href="#">'.$d['category'].'</a>';
 						echo '</td>';

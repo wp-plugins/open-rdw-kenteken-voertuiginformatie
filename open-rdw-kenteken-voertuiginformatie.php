@@ -3,7 +3,7 @@
 	Plugin Name: Open RDW kenteken voertuiginformatie
 	Plugin URI: http://www.tussendoor.nl
 	Description: Open RDW Kenteken voertuiginformatie voor het ophalen en verwerken van voertuig informatie binnen WordPress. Plugin vereist koppeling met RDW
-	Version: 1.0.2
+	Version: 1.0.3
 	Author: Tussendoor internet & marketing
 	Author URI: http://www.tussendoor.nl
 	Tested up to: 3.9
@@ -60,7 +60,7 @@ class OpenDataRDW {
 		}
 		
 		// // Register and include the javascript files
-		wp_register_script('open_data_rdw_script', OPEN_RDW_PLUGIN_URL . '/resources/open-data-rdw.js', array('jquery'));
+		wp_register_script('open_data_rdw_script', OPEN_RDW_PLUGIN_URL . '/resources/open-data-rdw.js', array('jquery'), '1.0.3');
 		wp_enqueue_script('open_data_rdw_script');
 
 		wp_localize_script( 'open_data_rdw_script', 'ajax', array( 'url' => admin_url( 'admin-ajax.php' ) ) );
@@ -77,7 +77,7 @@ class OpenDataRDW {
 		wp_register_style('open_data_rdw_admin', OPEN_RDW_PLUGIN_URL . '/resources/admin.css');
 		wp_enqueue_style('open_data_rdw_admin');
 
-		wp_register_script('open_data_rdw_tinymce', OPEN_RDW_PLUGIN_URL . '/resources/open-data-rdw-tinymce.js', array('jquery'));
+		wp_register_script('open_data_rdw_tinymce', OPEN_RDW_PLUGIN_URL . '/resources/open-data-rdw-tinymce.js', array('jquery'), '1.0.3');
 		wp_enqueue_script('open_data_rdw_tinymce');
 	}
 

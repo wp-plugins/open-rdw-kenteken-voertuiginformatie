@@ -29,7 +29,7 @@ jQuery(document).ready(function($) {
 
             $.each(res.result, function(name, value) {
                 if (name !== 'Kenteken') {
-                    $('input[name="' + name + '"').val(value);
+                    $('input[name="' + name + '"]').val(value);
                 }
             });
         });

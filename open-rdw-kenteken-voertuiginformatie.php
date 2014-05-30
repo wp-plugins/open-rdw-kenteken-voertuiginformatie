@@ -3,7 +3,7 @@
 	Plugin Name: Open RDW kenteken voertuiginformatie
 	Plugin URI: http://www.tussendoor.nl
 	Description: Open RDW Kenteken voertuiginformatie voor het ophalen en verwerken van voertuig informatie binnen WordPress. Plugin vereist koppeling met RDW
-	Version: 1.0.3
+	Version: 1.0.4
 	Author: Tussendoor internet & marketing
 	Author URI: http://www.tussendoor.nl
 	Tested up to: 3.9
@@ -33,6 +33,8 @@ class OpenDataRDW {
 		add_shortcode('open_data_rdw_check', array($this, 'shortcode'));
 		add_filter('open_data_rdw_check', array($this, 'do_shortcode'));
 
+		add_shortcode('open_rdw_quform', array($this, 'quform_shortcode'));
+
 		add_action('wp_ajax_get_open_rdw_data', array($this, 'get_json'));
 		add_action('wp_ajax_nopriv_get_open_rdw_data', array($this, 'get_json'));
 	}
@@ -59,8 +61,9 @@ class OpenDataRDW {
 			add_filter('mce_buttons', array($tinymce, 'add_buttons'));
 		}
 		
-		// // Register and include the javascript files
-		wp_register_script('open_data_rdw_script', OPEN_RDW_PLUGIN_URL . '/resources/open-data-rdw.js', array('jquery'), '1.0.3');
+		// Register and include the javascript files
+		wp_register_script('open_rdw_quform_script', OPEN_RDW_PLUGIN_URL . '/resources/open-rdw-quform.js', array('jquery'), '1.0.4');
+		wp_register_script('open_data_rdw_script', OPEN_RDW_PLUGIN_URL . '/resources/open-data-rdw.js', array('jquery'), '1.0.4');
 		wp_enqueue_script('open_data_rdw_script');
 
 		wp_localize_script( 'open_data_rdw_script', 'ajax', array( 'url' => admin_url( 'admin-ajax.php' ) ) );
@@ -139,6 +142,27 @@ class OpenDataRDW {
 			$data = $this->rdw->get_formatted( $_POST['open_data_rdw_kenteken'] );
 		}
 		include(OPEN_RDW_PLUGIN_DIR . '/views/frontend/shortcode.php');
+	}
+
+	public function quform_shortcode($fields) {
+		$license_key = array_search('Kenteken', $fields);
+
+		if( $license_key ):
+			$license = $license_key; unset($fields[$license_key]);
+			wp_enqueue_script( 'open_rdw_quform_script' );
+
+			$data = array(
+				'license'	=> $license,
+				'fields' 	=> array_flip($fields),
+				'url'		=> admin_url( 'admin-ajax.php' ),
+				'images' 	=> array(
+					'loading' => OPEN_RDW_PLUGIN_URL . '/resources/ajax-loader.gif',
+					'warning' => OPEN_RDW_PLUGIN_URL . '/resources/warning-icon.png',
+					'success' => OPEN_RDW_PLUGIN_URL . '/resources/accepted-icon.png'
+				)
+			);
+			wp_localize_script( 'open_rdw_quform_script', 'ajax', $data );
+		endif;
 	}
 
 }

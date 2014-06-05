@@ -1,5 +1,5 @@
 === Open RDW kenteken voertuiginformatie ===
-Contributors: Tussendoor internet & marketing
+Contributors: Tussendoor
 Donate link: http://www.tussendoor.nl/wordpress-plugins/
 Tags: tussendoor, open, rdw, open rdw, kenteken, informatie, voertuig, kentekeninformatie, voertuiginformatie, vwe, merk, model
 Requires at least: 3.6

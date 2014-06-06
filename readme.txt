@@ -51,6 +51,7 @@ Je kunt hierbij gebruik maken van de volgende velden:
 *Vervaldatum APK
 
 = Toepassingen =
+
 De data die opgehaald wordt kun je gebruiken bij diverse toepassingen binnen je WordPress site. Denk hierbij aan :
 - Koppelingen met webwinkel software (onderdelen per merk / model)
 - Formulieren voor het inruilen van een auto
@@ -59,6 +60,7 @@ De data die opgehaald wordt kun je gebruiken bij diverse toepassingen binnen je 
 En zo zijn er nog legio mogelijkheden te bedenken. 
 
 = Integratie =
+
 De plugin beschikt over een aantal standaard WordPress integraties. Zo kun je de data ophalen via
 - Widgets
 - Shortcodes  via een eenvoudig selectie menu in de WYSIWYG editor
@@ -70,10 +72,19 @@ Via de integratie met CF7 kun je op een snelle en eenvoudige manier kenteken inf
 
 
 = Meer data nodig =
+
 Heb je meer data nodig dan de Open RDW beschikbaar stelt? Dan is dat mogelijk. Tussendoor biedt eveneens de premium [VWE kenteken koppeling](http://www.tussendoor.nl/wordpress-plugins/wordpress-rdw-kenteken-koppeling/)  aan welke gekoppeld is aan de kenteken diensten van VWE (deze zijn betaald). Hiermee haal je meer data op, simpelweg omdat er meer historie beschikbaar is. 
 
-= Maatwerk =
-[Tussendoor](http://www.tussendoor.nl) is eveneens beschikbaar voor maatwerk toepassingen van deze en andere plugins. Wil je dus kenteken informatie op een specifieke manier gebruiken? Informeer dan gewoon eens naar de mogelijkheden. 
+= Custom / Maatwerk plugins =
+
+Are you looking for custom made solutions or plugins for your WordPress site? You can always contact us via support@tussendoor.nl. Please provide us as much information as possible. You can also check our other plugins via the [Tussendoor tag](https://wordpress.org/plugins/tags/tussendoor) or via our [profile page](https://profiles.wordpress.org/tussendoor/) here at WordPress. 
+
+Some of our premium plugins can be found at [Codecanyon](http://codecanyon.net/user/Tussendoor/portfolio) or our [own website](http://www.tussendoor.nl/wordpress-plugins/).
+
+= Nederlands =
+Ben je op zoek naar maatwerk oplossingen of pugins voor je WordPress website? Dan kun je altijd contact met ons opnemen via support@tussendoor.nl. Verschaf aub zo veel mogelijk  informatie bij je aanvraag. Je kunt ook een kijkje nemen bij onze andere plugins via de [Tussendoor tag](https://wordpress.org/plugins/tags/tussendoor) of op ons [profiel hier op WordPress](https://profiles.wordpress.org/tussendoor/).
+
+Een aantal premium plugins zijn te vinden op [onze eigen website](http://www.tussendoor.nl/wordpress-plugins/) en op [Codecanyon](http://codecanyon.net/user/Tussendoor/portfolio).
 
 == Installation ==
 

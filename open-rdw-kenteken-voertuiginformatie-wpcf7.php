@@ -75,7 +75,7 @@ class OpenDataRDW_wpcf7 {
 	- Tag generator
 	--------------------------------------------------------------*/
 
-	public function wpcf7_tg_pane_open_rdw( &$contact_form ) {
+	public function wpcf7_tg_pane_open_rdw( $contact_form ) {
 		$rdw = new getOpenRDW();
 		$fields = $rdw->get_formatted();
 		include(OPEN_RDW_PLUGIN_DIR . '/views/admin/wpcf7-tag-generator.php');

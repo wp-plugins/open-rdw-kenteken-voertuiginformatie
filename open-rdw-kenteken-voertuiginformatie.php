@@ -3,16 +3,17 @@
 	Plugin Name: Open RDW kenteken voertuiginformatie
 	Plugin URI: http://www.tussendoor.nl
 	Description: Open RDW Kenteken voertuiginformatie voor het ophalen en verwerken van voertuig informatie binnen WordPress. Plugin vereist koppeling met RDW
-	Version: 1.0.6
+	Version: 1.0.7
 	Author: Tussendoor internet & marketing
 	Author URI: http://www.tussendoor.nl
-	Tested up to: 3.9
+	Tested up to: 4.2
 */
 
 if ( ! defined('OPEN_RDW_PLUGIN_DIR')) define('OPEN_RDW_PLUGIN_DIR', dirname(__FILE__));
 if ( ! defined('OPEN_RDW_PLUGIN_URL')) define('OPEN_RDW_PLUGIN_URL', plugins_url('open-rdw-kenteken-voertuiginformatie'));
 
 require_once('open-rdw-kenteken-voertuiginformatie-api.php');
+require_once('open-rdw-kenteken-voertuiginformatie-frame.php');
 require_once('open-rdw-kenteken-voertuiginformatie-widget.php');
 require_once('open-rdw-kenteken-voertuiginformatie-wpcf7.php');
 require_once('open-rdw-kenteken-voertuiginformatie-tinymce.php');

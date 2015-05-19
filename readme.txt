@@ -4,7 +4,7 @@ Donate link: http://www.tussendoor.nl/wordpress-plugins/
 Tags: tussendoor, open, rdw, open rdw, kenteken, informatie, voertuig, kentekeninformatie, voertuiginformatie, vwe, merk, model
 Requires at least: 3.6
 Tested up to: 4.2.*
-Stable tag: 1.0.7
+Stable tag: 1.0.8
  
 Haal kenteken / voertuig informatie op via de gratis dienst van Open RDW met de Open RDW kenteken voertuiginformatie.
 
@@ -103,6 +103,10 @@ Een aantal premium plugins zijn te vinden op [onze eigen website](http://www.tus
 6. Voorbeeldscherm (stap 2) voor de shortcode invoer binnen de WYSIWYG editor
 
 == Changelog ==
+
+= 1.0.8 =
+* Fixed: Modal not showing in the text editor
+* Added: cURL for better handling the API
 
 = 1.0.7 =
 * Added: Support for WordPress version 4.2

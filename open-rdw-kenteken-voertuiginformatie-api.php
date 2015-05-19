@@ -16,17 +16,17 @@ class getOpenRDW {
 		$cred = sprintf('Authorization: Basic %s', 
 		base64_encode($this->key . ":" . $this->key) );
 
-		$context = stream_context_create(
-		array(
-			'http' 	=> array(
-				'header' 		=> $cred,
-				'ignore_errors' => TRUE
-			)
-		)
-		);
-
 		$request = $this->url . 'KENT_VRTG_O_DAT(\'' . urlencode( $this->clean_license($license) ) . '\')?$format=json';
-		return json_decode( file_get_contents($request, 0, $context), true );
+
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $request);
+		curl_setopt($ch, CURLOPT_HTTPHEADER, array($cred));
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+		$curlResp 	= curl_exec($ch);
+		$curlError 	= curl_error($ch);
+
+		return json_decode($curlResp, true);
 	}
 
 	public function get_formatted($license = null) {
